@@ -49,7 +49,7 @@ services:
     expose:
       - '6379'
     ports:
-      - '6379:6379'
+      - '63379:6379'
     volumes:
       - ./runtime/redis:/data
     privileged: true
