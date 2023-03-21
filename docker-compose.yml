@@ -19,8 +19,8 @@ services:
       - redis
     networks:
       - think
-  mysql:
-    image: mysql:8.0.30
+  db:
+    image: mysql
     restart: always
     container_name: mysql-for-think
     volumes:
